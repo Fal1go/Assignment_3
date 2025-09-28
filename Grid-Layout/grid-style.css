@@ -53,12 +53,13 @@ a:hover{
 
 .grid-main{
     grid-area: main-area;
-    background: #F2ECDD;
+    /* background: #CD9C2050; */
 }
 
 .grid-footer{
     grid-area: footer;
     justify-items: center;
+    border-top: 5px solid #f5cb5c;
     padding: 10px;
     color: #f4f4f4;
     background: #333533;
@@ -68,6 +69,7 @@ a:hover{
     grid-area: header;
     display: flex;
     align-items: center;
+    border-bottom: 5px solid #f5cb5c;
     background-color: #333533;
     padding: 0;
     margin: 0;
@@ -109,7 +111,7 @@ div.header li{
 .grid-main h2{
     display: block;
     width: 98.5%;
-    background-color: #000;
+    background-color: #333533;
     text-align: center;
     margin: 0 0 20px 0;
     padding: 10px;
