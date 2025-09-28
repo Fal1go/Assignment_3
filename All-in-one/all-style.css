@@ -7,7 +7,9 @@ body{
 
 h2{
     font-family: 'Cinzel', serif;
+    
 }
+
 
 button{
     font-family: 'Fauna One', serif;
@@ -21,6 +23,18 @@ a{
     transition: transform 0.2s ease;
 
 }
+
+.sidelink{
+    display: inline-block;
+    text-decoration: none;
+    color: #f4f4f4;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 8px;
+    background-color: #333533;
+    transition: transform 0.2s ease;
+}
+
 
 
 

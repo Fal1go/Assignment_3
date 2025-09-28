@@ -53,7 +53,6 @@ a:hover{
 
 .grid-main{
     grid-area: main-area;
-    /* background: #CD9C2050; */
 }
 
 .grid-footer{
